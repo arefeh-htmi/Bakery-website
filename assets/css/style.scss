@@ -1,0 +1,74 @@
+@import "./variables";
+@import "./mixins";
+@import "./about-us";
+@import "./contact-us";
+@import "./index";
+@import "./products";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-custom {
+  background-color: rgba(36, 31, 25, 0.7);
+}
+
+.navbar-dark .navbar-nav {
+  .dropdown-menu {
+    background-color: rgba(36, 31, 25, 0.7);
+  }
+  .nav-link,
+  .dropdown-item {
+    padding: 1rem;
+    color: $beige;
+    transition: all 300ms ease;
+    &:hover {
+      background-color: $warmBrown;
+    }
+  }
+}
+
+// dropdown menu expand on hover
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+nav {
+  .navbar-brand {
+      height: 60px;
+      display: flex;
+      align-items: center;
+  }
+  img {
+      height: 45px;
+  }
+  .navbar-toggler {
+    margin: 0.5rem 1rem 0.5rem auto;
+    display: inline;
+  }
+}
+
+// SMALL SCREENS
+@media (max-width: 576px) {
+  nav .navbar-toggler {
+    margin: 0.5rem auto;
+  }
+  nav .navbar-brand {
+    width: 10rem;
+  }
+}

@@ -1,0 +1,416 @@
+/* Color Theme Swatches in Hex */
+#about-us {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%, #000000 100%), url("/assets/images/about-us.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column; }
+  #about-us h1 {
+    color: white; }
+
+.content {
+  margin: 4rem auto;
+  padding: 3rem 7rem; }
+
+@media (max-width: 992px) {
+  #about-us h1 {
+    font-size: 3rem; }
+  .content {
+    padding: 2rem 4rem; } }
+
+#contact-us {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 100%, #000000 100%), url("/assets/images/contact-us.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column; }
+  #contact-us h1 {
+    color: white; }
+
+@media (max-width: 992px) {
+  #contact-us h1 {
+    font-size: 3rem; } }
+
+#index-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%, #000000 100%), url("/assets/images/bg-home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  filter: sepia(40%);
+  align-items: center;
+  justify-content: center;
+  position: relative; }
+  #index-header div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+  #index-header h1 {
+    width: 100%;
+    text-align: center;
+    color: #de4463;
+    font-size: 6rem; }
+    #index-header h1:first-child {
+      color: #821752; }
+
+#about {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%, #000000 100%), url(/assets/images/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  #about p {
+    padding: 10rem;
+    font-size: 1.7rem;
+    color: white; }
+
+#products a:hover {
+  text-decoration: none; }
+
+#products .bread,
+#products .pastries,
+#products .cakes,
+#products .desserts {
+  transition: 200ms;
+  filter: sepia(40%) grayscale(10%); }
+  #products .bread h3,
+  #products .pastries h3,
+  #products .cakes h3,
+  #products .desserts h3 {
+    color: #f8efd4; }
+  #products .bread:hover,
+  #products .pastries:hover,
+  #products .cakes:hover,
+  #products .desserts:hover {
+    filter: sepia(0%) grayscale(0%); }
+
+#products .bread {
+  background: url("/assets/images/product-bread.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 19rem;
+  height: 19rem;
+  display: flex;
+  align-items: flex-end; }
+
+#products .pastries {
+  background: url("/assets/images/product-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 19rem;
+  height: 19rem;
+  display: flex;
+  align-items: flex-end; }
+
+#products .cakes {
+  background: url("/assets/images/product-cake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 19rem;
+  height: 19rem;
+  display: flex;
+  align-items: flex-end; }
+
+#products .desserts {
+  background: url("/assets/images/product-dessert.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 19rem;
+  height: 19rem;
+  display: flex;
+  align-items: flex-end; }
+
+#products .special {
+  background: url("/assets/images/product-special.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 40.5rem;
+  height: 40.5rem;
+  display: flex;
+  align-items: flex-end; }
+
+#products h3 {
+  color: white;
+  font-size: 2.3rem;
+  margin: auto auto 1rem 1rem;
+  text-shadow: 4px 4px 5px black; }
+
+#love-us {
+  background-color: #f8efd4;
+  padding: 2rem; }
+  #love-us h1 {
+    color: #821752; }
+  #love-us i {
+    color: #821752;
+    font-size: 3.4rem; }
+  #love-us [class*="col-"] {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8e7851;
+    margin: 1rem auto;
+    padding: 2rem;
+    max-width: 20rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    font-size: 1.6rem; }
+
+footer {
+  background-color: #473c28;
+  color: #edc988;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5% 10%;
+  position: relative;
+  justify-content: space-between; }
+  footer h4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #de4463; }
+  footer h2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #de4463; }
+  footer i {
+    font-size: 2.3rem;
+    transition: 150ms;
+    padding: 0.5rem;
+    color: #edc988 !important; }
+    footer i:hover {
+      color: #f8efd4 !important; }
+  footer #copyright {
+    position: absolute;
+    bottom: 0.6rem;
+    left: 0;
+    padding: 0.3rem;
+    width: 100%;
+    text-align: center;
+    background-color: #262016; }
+
+form.contact_us_form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap; }
+  form.contact_us_form section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px; }
+  form.contact_us_form label {
+    width: 100%; }
+  form.contact_us_form textarea {
+    resize: none;
+    height: 120px; }
+  form.contact_us_form input,
+  form.contact_us_form textarea {
+    border: none;
+    outline: none;
+    box-shadow: 0px 5px 10px 2px #262016;
+    min-width: 200px;
+    width: 550px;
+    padding: 5px 15px;
+    border-bottom: 2px solid transparent;
+    transition: 200ms;
+    background-color: #f8efd4;
+    border-radius: 3px; }
+    form.contact_us_form input:focus,
+    form.contact_us_form textarea:focus {
+      outline: none;
+      border-bottom-color: #de4463; }
+    @media (max-width: 682px) {
+      form.contact_us_form input,
+      form.contact_us_form textarea {
+        width: 300px; } }
+    @media (max-width: 390px) {
+      form.contact_us_form input,
+      form.contact_us_form textarea {
+        width: 200px; } }
+  form.contact_us_form button {
+    box-shadow: 0px 5px 10px 2px #262016;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 3px;
+    background-color: #e66f87;
+    margin: 20px 0;
+    transition: 200ms; }
+    form.contact_us_form button:hover {
+      color: black;
+      background-color: #e25a75; }
+
+@media (max-width: 992px) {
+  #index-header h1 {
+    font-size: 3rem; }
+  #about p {
+    padding: 3rem;
+    font-size: 1.2rem;
+    color: white; }
+  #products .bread,
+  #products .pastries,
+  #products .cakes,
+  #products .special,
+  #products .desserts {
+    width: 90%;
+    margin: 1rem auto; } }
+
+#bread-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%, #000000 100%), url("/assets/images/product-bread.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column; }
+  #bread-header h1 {
+    color: white; }
+
+#cake-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%, #000000 100%), url("/assets/images/product-cake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column; }
+  #cake-header h1 {
+    color: white; }
+
+#dessert-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%, #000000 100%), url("/assets/images/product-dessert.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column; }
+  #dessert-header h1 {
+    color: white; }
+
+#pastries-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%, #000000 100%), url("/assets/images/product-pie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column; }
+  #pastries-header h1 {
+    color: white; }
+
+.product-container {
+  margin: 3rem auto;
+  padding: 3rem; }
+  .product-container img {
+    width: 19rem;
+    height: 19rem;
+    object-fit: cover; }
+  .product-container p {
+    margin: 1rem auto; }
+  .product-container img,
+  .product-container p {
+    cursor: pointer; }
+
+.modal img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover; }
+
+@media (max-width: 992px) {
+  #bread-header h1,
+  #cake-header h1,
+  #pastries-header h1,
+  #dessert-header h1 {
+    font-size: 3rem; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif; }
+
+.navbar {
+  margin: 0px;
+  padding: 0px; }
+
+.navbar-custom {
+  background-color: rgba(36, 31, 25, 0.7); }
+
+.navbar-dark .navbar-nav .dropdown-menu {
+  background-color: rgba(36, 31, 25, 0.7); }
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .dropdown-item {
+  padding: 1rem;
+  color: #edc988;
+  transition: all 300ms ease; }
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .dropdown-item:hover {
+    background-color: #a58c5f; }
+
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none; }
+
+nav .navbar-brand {
+  height: 60px;
+  display: flex;
+  align-items: center; }
+
+nav img {
+  height: 45px; }
+
+nav .navbar-toggler {
+  margin: 0.5rem 1rem 0.5rem auto;
+  display: inline; }
+
+@media (max-width: 576px) {
+  nav .navbar-toggler {
+    margin: 0.5rem auto; }
+  nav .navbar-brand {
+    width: 10rem; } }
