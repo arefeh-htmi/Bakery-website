@@ -1,5 +1,4 @@
 # Bakery-website
-I made this bakery website when I was at the start of my way as a developer as one of my assignments durig a course in Tehran Institute of Technology  (http://mft.info) 
 
 <h2>Image and icon Sources </h2>
 
